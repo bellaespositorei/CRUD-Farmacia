@@ -24,7 +24,7 @@ import com.generation.farmacia.service.UsuarioService;
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class UsuarioControllerTest {
-
+ 
 	@Autowired
 	private TestRestTemplate testRestTemplate;
 
